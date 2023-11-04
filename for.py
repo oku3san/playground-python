@@ -4,16 +4,24 @@
 
 # =========
 
-# Create a sample collection
-users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
+# # Create a sample collection
+# users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
+#
+# # Strategy:  Iterate over a copy
+# for user, status in users.copy().items():
+#     if status == 'inactive':
+#         del users[user]
+#
+# # Strategy:  Create a new collection
+# active_users = {}
+# for user, status in users.items():
+#     if status == 'active':
+#         active_users[user] = status
 
-# Strategy:  Iterate over a copy
-for user, status in users.copy().items():
-    if status == 'inactive':
-        del users[user]
+# ========
+for i in range(5):
+    print(i)
 
-# Strategy:  Create a new collection
-active_users = {}
-for user, status in users.items():
-    if status == 'active':
-        active_users[user] = status
+print(list(range(5, 10)))
+print(list(range(0, 10, 3)))
+print(list(range(-10, -100, -30)))
