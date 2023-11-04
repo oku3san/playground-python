@@ -2,6 +2,8 @@
 # for w in words:
 #     print(w, len(w))
 
+# =========
+
 # Create a sample collection
 users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
 
