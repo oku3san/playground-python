@@ -48,13 +48,28 @@
 
 # =====
 
-def fib(n):
-    """Print a Fibonacci series up to n."""
-    a, b = 0, 1
-    while a < n:
-        print(a, end=' ')
-        a, b = b, a + b
-    print()
+# def fib(n):
+#     """Print a Fibonacci series up to n."""
+#     a, b = 0, 1
+#     while a < n:
+#         print(a, end=' ')
+#         a, b = b, a + b
+#     print()
+#
+#
+# fib(2000)
 
+# =====
 
-fib(2000)
+fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+print(fruits)
+print(fruits.count('apple'))
+print(fruits.index('banana'))
+print(fruits.index('banana', 4))
+print(fruits.reverse())
+print(fruits)
+fruits.append('grape')
+print(fruits)
+fruits.sort()
+print(fruits)
+print(fruits.pop())
